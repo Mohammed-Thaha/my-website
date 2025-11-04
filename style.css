@@ -1,0 +1,77 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  font-family: 'Poppins', sans-serif;
+  color: #fff;
+}
+
+.container {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+h1 span {
+  color: #ff3b3b;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+/* Social link styles */
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  border: 2px solid #fff;
+  padding: 10px 22px;
+  border-radius: 25px;
+  transition: all 0.3s ease;
+}
+
+.social-links a:hover {
+  background: #fff;
+  color: #111;
+  transform: translateY(-4px);
+}
+
+/* Platform hover colors */
+.youtube:hover {
+  background: #ff0000;
+  border-color: #ff0000;
+  color: #fff;
+}
+
+.instagram:hover {
+  background: #e1306c;
+  border-color: #e1306c;
+  color: #fff;
+}
+
+.github:hover {
+  background: #24292e;
+  border-color: #24292e;
+  color: #fff;
+}
