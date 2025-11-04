@@ -59,8 +59,8 @@ p {
 
 /* Platform hover colors */
 .youtube:hover {
-  background: #ff0000;
-  border-color: #ff0000;
+  background: orange;
+  border-color: orange;
   color: #fff;
 }
 
